@@ -17,7 +17,7 @@ export default class Rule extends Phaser.Scene{
         this.load.image('Level1_1', 'src/assets/rules/Level1_1.png');
         this.load.image('Level2_1', 'src/assets/rules/Level2_1.png');
         this.load.image('Level3_1', 'src/assets/rules/Level2_1.png');
-        this.load.image('levelChoice_1', 'src/assets/rules/levelChoice_1.png');
+        this.load.image('levelChoice1', 'src/assets/rules/levelChoice1.png');
         this.load.image('left', 'src/assets/rules/left.png');
         this.load.image('right', 'src/assets/rules/right.png');
         this.load.image('start', 'src/assets/rules/start.png');
@@ -73,7 +73,7 @@ export default class Rule extends Phaser.Scene{
     }
 
     update() {
-        
+
     }
 
 }
